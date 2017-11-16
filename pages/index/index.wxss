@@ -1,0 +1,39 @@
+.wrap {
+  width: 750rpx;
+  height: 100%;
+  background-size:cover; 
+  /* background-image:url("../images/qing.jpg"); */
+}
+
+.today {
+  width: 750rpx;
+  height: 400rpx;
+  background: lightgreen;
+  text-align: center;
+}
+
+.location {
+  font-size: 70rpx;
+  padding:20rpx;
+}
+
+.temper {
+  font-size: 100rpx;
+}
+
+.week {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20rpx;
+  padding-right:20rpx; 
+}
+
+.future .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20rpx;
+  background: yellow;
+}
+
